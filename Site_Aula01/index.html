@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora de Média - Aula 01</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script type="text/javascript" src="js/scripts.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="page-title">Calculadora de Média!</h1>
+            <p class="page-subtitle">Descubra qual a sua média de nota de todas as provas!</p>
+            <br>
+                <label for="nota">Insira a nota do Primeiro Bimestre:</label>
+            <br>
+                <input type="number" id="nota1bimestre" size="2" autocomplete="off"/>
+            <br>
+            <br>
+                <label for="nota">Insira a nota do Segunda Bimestre:</label>
+            <br>
+                <input type="number" id="nota2bimestre" size="2" autocomplete="off"/>
+            <br>
+            <br>
+                <label for="nota">Insira a nota do Terceiro Bimestre:</label>
+            <br>
+                <input type="number" id="nota3bimestre" size="2" autocomplete="off"/>
+            <br>
+            <br>
+                <label for="nota">Insira a nota do Quarto Bimestre:</label>
+            <br>
+                <input type="number" id="nota4bimestre" size="2" autocomplete="off"/>
+            <br>
+            <button type="submit" onclick="Calcular()">Calcular a Média</button>
+            <h2 id="MédiaFinal"></h2>
+        </div>
+    </body>
+</html>
